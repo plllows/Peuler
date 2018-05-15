@@ -19,12 +19,12 @@ int main() {
 		a.pb(i-1999);
 	}
 	show(a);
-	
+
 	bool isPrime;
 	for (int i=2; i<=1000; i++) {
 		isPrime=true;
 		for (int j=2; j<=(i/j); j++) {
-			cout<<"comparing "<<j<<" to "<<i<<endl;
+			//cout<<"comparing "<<j<<" to "<<i<<endl;
 			if (i%j==0) {
 				//cout<<i<<" is not prime"<<endl;
 				isPrime=false; break;
