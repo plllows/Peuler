@@ -16,7 +16,7 @@ int main() {
 	vector<int> b;
 	vector<int> a;
 	for (int i=0; i<=1998; i++) {
-		a.pb(i-1999);
+		a.pb(i-999);
 	}
 	show(a);
 
